@@ -13,4 +13,5 @@ docker run -ti --name harmonyonenotifier \
        --env NOTIFIER_API_APP=agmie86vk8krumow4tpc5rfyq315f8 \
        --env NOTIFIER_API_USER=x \
        --env HARMONYONE_WALLET=one1wksazguqkyty7wdty6786wp0k9gllmvyjn2ka0 \
+       --env TZ=Australia/Melbourne \
        lnxd/harmonyonenotifier
